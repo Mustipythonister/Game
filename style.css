@@ -1,0 +1,33 @@
+body{
+	margin:0;
+	padding:0;
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+*{
+	font-family: 'Cairo', sans-serif;
+}
+.middle{
+	position: relative;
+	top:200px;
+}
+span{
+	cursor: pointer;
+	transition: 0.5s;
+}
+span:hover{
+	color: #FF0F00;
+	transition: 0.2s;
+}
+#love:hover{
+	color: #FF0F00;
+	text-shadow: 0 0 5px;
+}
+#play{
+
+}
+#play:hover{
+	color: #00EA17;
+}

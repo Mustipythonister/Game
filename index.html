@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get over it</title>
+	<link rel="stylesheet" href="style.css">
+	<script defer src="script.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;330&display=swap" rel="stylesheet">
+</head>
+<body onload="show('p1','p2')">
+	<div class="middle">
+		<div id="p1">
+		<h1 class="title">| Hey user if you wanna play this game you have to read This > <span onclick="show('p2','p1')">NEXT</span></h1>
+		<hr>
+		<div class="maker"><p>| made with <span id="love" onclick="love()">love</span> from mustapha</p></div>
+	</div>
+
+		<div class="page2" id="p2">
+			<h1 class="title">You wanna get over it but you can't. Here's the solution :</h1>
+		<hr>
+		<p>So you are trying to reach that red Apple, but you can't.<br>But the red apple she changes her location everytime you reach her.<br>Why : because she doesn't want to be reached by you, considering tha fact that she's not even delecious.<br>Solution : Reach the golden apple.</p>
+		<hr>
+		<div class="maker"><p>| made with <span onclick="love()" id="love">love</span> from mustapha. <span id="play" onclick="play()">Play The snake game.</span></p></div>
+		</div>
+	</div>
+</body>
+</html>
