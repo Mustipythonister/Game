@@ -9,3 +9,6 @@ function show(p1,p2,p3){
 function love(){
 	alert("Awch stop clicking me.");
 }
+function play(){
+	window.location = "https://mustipythonister.github.io/Games/";
+}
